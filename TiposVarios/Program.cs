@@ -18,13 +18,14 @@ namespace TiposVarios
             Console.WriteLine("Banana = " + banana);
             Console.WriteLine("Apple = " + apple);
             Console.WriteLine("banana - apple = " + diff);
+            Console.WriteLine(args.Length);
             Console.WriteLine("Another way to do banana - apple = " + (apple - banana) + trademark);
-            for(int i = 0; i <= 8; i++)
+            for (int i = 0; i <= 8; i++)
             {
                 Console.WriteLine(i * 2);
             }
             Console.WriteLine("That was i * 2, and i goes up to 8, WOWI!");
-            if(verify == true || banana == 1)
+            if (verify == true || banana == 1)
             {
                 Console.WriteLine("IT WOOOOOOOORKED!");
             }
@@ -32,4 +33,3 @@ namespace TiposVarios
         }
     }
 }
-    
